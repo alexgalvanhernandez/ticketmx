@@ -1,0 +1,58 @@
+::selection {
+	background:#03283D;
+	color: #fff;
+	text-shadow: none;
+}
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+  background:#eeeeee;
+  font-family: 'Helvetica' !important;
+}
+label{
+	color:#FFF;	
+}
+
+
+#contenedor{
+	margin:0 auto;
+	margin-top:60px;
+	text-align:center;
+	width:550px;
+}
+#titulo{
+	text-align:center;
+	font-size:25px;
+	margin-bottom:15px;
+}
+#datos{
+	padding:20px;
+	text-align:left;
+	background-color:#222A35;
+	border-radius:8px;
+	margin-top:15px;
+	margin-bottom:30px;
+}
+#nombre, #clave{
+	height:30px;
+	font-size:20px;
+	color:#666;
+	margin-bottom:10px;
+	border-radius:3px;
+	border:0;
+	padding-left:2%;
+}
+#nombre{
+	width:98%;
+}
+#clave{
+	width:50%;
+}
+#boton1, #boton2{
+	margin-left:7px;
+	height:31px;
+	font-size:20px;
+	color:#666;
+}

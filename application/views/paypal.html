@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+<title>Ejemplo de pago mediante la API de PayPal</title>
+
+</head>
+
+<body>
+
+<form name='formTpv' method='post' action='https://www.sandbox.paypal.com/cgi-bin/webscr'>
+
+	<input type='hidden' name='cmd' value='_xclick'>
+	<input type='hidden' name='business' value='ticketmx@ticketmx.com'>
+	<input type='hidden' name='item_name' value='Marco Antonio Solis'>
+	<input type='hidden' name='item_number' value='MAS281014-102'>
+	<input type='hidden' name='amount' value='250'>
+	<input type='hidden' name='page_style' value='primary'>
+	<input type='hidden' name='no_shipping' value='1'>
+	<input type='hidden' name='return' value='http://mi_pagina/exito.html'>
+	<input type='hidden' name='rm' value='2'>
+	<input type='hidden' name='cancel_return' value='http://mi_pagina/cancelada.html'>
+	<input type='hidden' name='no_note' value='1'>
+	<input type='hidden' name='currency_code' value='MXN'>
+	<input type='hidden' name='cn' value='PP-BuyNowBF'>
+	<input type='hidden' name='custom' value=''>
+	<input type='hidden' name='first_name' value='Alejandro'>
+	<input type='hidden' name='last_name' value='Galvan'>
+	<input type='hidden' name='address1' value='DIRECC'>
+	<input type='hidden' name='city' value='Colima'>
+	<input type='hidden' name='zip' value='28050'>
+	<input type='hidden' name='night_phone_a' value='3120000000'>
+	<input type='hidden' name='night_phone_b' value='3120000'>
+	<input type='hidden' name='night_phone_c' value='3121111'>
+	<input type='hidden' name='lc' value='es'>
+	<input type='hidden' name='country' value='MX'>
+</form>
+<script type='text/javascript'>
+	document.formTpv.submit();
+</script>
+
+</body>
+
+</html>
