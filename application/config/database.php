@@ -45,13 +45,14 @@
 | the active record class
 */
 
+
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
-$db['default']['database'] = 'ticketmx';
+$db['default']['hostname'] = 'us-cdbr-iron-east-01.cleardb.net';
+$db['default']['username'] = 'b2953916f747cf';
+$db['default']['password'] = '9970ffd6';
+$db['default']['database'] = 'heroku_00584638d83237a';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
